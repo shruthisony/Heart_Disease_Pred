@@ -1,0 +1,11 @@
+## How to Run the Project Locally
+1.⁠ ⁠Clone the repository:
+   git clone <your-repo-url>
+2.⁠ ⁠(Optional) Create and activate virtual environment:
+   python -m venv venv
+   source venv/bin/activate   (on Windows: venv\Scripts\activate)
+3.⁠ ⁠Install dependencies:
+   pip install -r requirements.txt
+4.⁠ ⁠Start FastAPI backend:
+   uvicorn main:app --reload
+   navigate to http://127.0.0.1:8000/docs
